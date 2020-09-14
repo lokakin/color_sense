@@ -22,7 +22,7 @@ void loop() {
     Serial.print("Color: red=");
     Serial.print(red, DEC);
     Serial.print(" green=");
-    Serial.print(green, DEC);
+    Serial.print(green, DEC) ;
     Serial.print(" blue=");
     Serial.println(blue, DEC);
    
