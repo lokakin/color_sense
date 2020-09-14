@@ -26,7 +26,7 @@ void loop() {
     Serial.print(" blue=");
     Serial.println(blue, DEC);
    
-    for (int i=0; i<10; ++i) {
+    for (int i=0; i<10; +i) {
       CircuitPlayground.strip.setPixelColor(i, red, green);
     }
     CircuitPlayground.strip.show();
